@@ -91,7 +91,7 @@ const Hero = () => {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                src="https://res.cloudinary.com/dwuhamihv/image/upload/v1780150287/hero-mockup_ghnqcv.png"
+                src="https://res.cloudinary.com/dwuhamihv/image/upload/v1780152365/hero-mockup.png_h8qgot.png"
                 alt="mockup"
                 className="hero-mockup"
               />
