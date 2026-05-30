@@ -1,6 +1,6 @@
 import React from "react";
 import "./FeaturedProjects.css";
-import { FaArrowRight } from "react-icons/fa";
+
 import game from "../../assets/images/game.png";
 import market from "../../assets/images/market.png";
 import darmano from "../../assets/images/darmano.png";
