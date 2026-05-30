@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-
+import resume from "../../assets/images/resume.pdf";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 
           {/* RESUME BUTTON */}
           <a
-            href="https://api.cloudinary.com/v1_1/dwuhamihv/image/download?api_key=626134544524892&attachment=true&audit_context=eyJhY3Rvcl90eXBlIjoidXNlciIsImFjdG9yX2lkIjoiNjI0NGMxMzdiZTJkZTFkMjYwNjg4Y2QxYWY3NTZkODIiLCJ1c2VyX2V4dGVybmFsX2lkIjoiYWZkYTA4OTA2YmM5YjVmYTdkNmIwYWE2YTU5NGQ0IiwidXNlcl9jdXN0b21faWQiOiJzaHJhemF2aTExMEBnbWFpbC5jb20iLCJjb21wb25lbnQiOiJjb25zb2xlIn0%3D&public_id=download_2_arbamp&signature=5a532da8df07a1af1da25e718f70c22afe4ab3f9&source=ml&target_filename=download_2_arbamp&timestamp=1780145670&type=upload"
+            href={resume}
             className="resume-button"
           >
             Resume
