@@ -4,14 +4,12 @@ import {
   FaReact,
   FaNodeJs,
   FaBootstrap,
-  FaGitAlt,
   FaAndroid,
 } from "react-icons/fa";
 
 import {
   SiMongodb,
   SiMysql,
-  SiJavascript,
   SiSocketdotio,
   SiWebrtc,
 } from "react-icons/si";
