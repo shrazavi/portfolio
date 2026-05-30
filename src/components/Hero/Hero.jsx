@@ -1,7 +1,7 @@
 import React from "react";
 
 import { motion } from "framer-motion";
-import mockup from "../../assets/images/hero-mockup.png";
+
 import {
   FaGithub,
   FaLinkedinIn,
@@ -91,7 +91,7 @@ const Hero = () => {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                src={mockup}
+                src="https://res.cloudinary.com/dwuhamihv/image/upload/v1780150287/hero-mockup_ghnqcv.png"
                 alt="mockup"
                 className="hero-mockup"
               />
