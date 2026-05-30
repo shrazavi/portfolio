@@ -1,9 +1,6 @@
 import React from "react";
 import "./FeaturedProjects.css";
 
-import game from "../../assets/images/game.png";
-import market from "../../assets/images/market.png";
-import darmano from "../../assets/images/darmano.png";
 const projects = [
   {
     id: 1,
