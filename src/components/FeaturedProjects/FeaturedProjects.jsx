@@ -44,25 +44,43 @@ const FeaturedProjects = () => {
         <button className="resume-button">➜ View All Project </button>
       </div> */}
       <div className="projects-grid">
-        {projects.map((project) => (
-          <div className="project-card">
-            <img src={project.image} className="project-image" />
+       {projects.map((project) => (
+  <div
+    key={project.id}
+    className="project-card"
+  >
+    <img
+      src={project.image}
+      alt={project.title}
+      className="project-image"
+    />
 
-            <div className="project-content">
-              <span className="project-category">{project.category}</span>
+    <div className="project-content">
+      <span className="project-category">
+        {project.category}
+      </span>
 
-              <h3 className="project-title">{project.title}</h3>
+      <h3 className="project-title">
+        {project.title}
+      </h3>
 
-              <p className="project-description">{project.description}</p>
+      <p className="project-description">
+        {project.description}
+      </p>
 
-              <div className="tech-stack">
-                {project.technologies.map((tech) => (
-                  <span className="tech-badge">{tech}</span>
-                ))}
-              </div>
-            </div>
-          </div>
+      <div className="tech-stack">
+        {project.technologies.map((tech) => (
+          <span
+            key={tech}
+            className="tech-badge"
+          >
+            {tech}
+          </span>
         ))}
+      </div>
+    </div>
+  </div>
+))}
       </div>
     </section>
   );
