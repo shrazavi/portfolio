@@ -11,7 +11,7 @@ const projects = [
     category: "Featured Project",
     description:
       "A modern multi-vendor e-commerce platform with responsive design, advanced filtering and seller dashboard.",
-    image:market,
+    image:"https://res.cloudinary.com/dwuhamihv/image/upload/v1780149078/market_geleh3.png",
     technologies: ["React", "Node.js", "MongoDB"],
     reverse: false,
   },
@@ -22,7 +22,7 @@ const projects = [
     category: "Real-Time System",
     description:
       "Real-time communication application using WebRTC and Socket.io with encrypted messaging support.",
-    image: darmano,
+    image: "https://res.cloudinary.com/dwuhamihv/image/upload/v1780149074/darmano_ddripd.png",
     technologies: ["WebRTC", "Socket.io", "Node.js"],
     reverse: true,
   },
@@ -33,7 +33,7 @@ const projects = [
     category: "Android Application",
     description:
       "Interactive math learning game designed for elementary school students using gamification concepts.",
-    image: game,
+    image: "https://res.cloudinary.com/dwuhamihv/image/upload/v1780149024/game_mtyoom.png",
     technologies: ["Android", "Java", "Gamification"],
     reverse: false,
   },
