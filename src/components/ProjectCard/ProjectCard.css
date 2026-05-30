@@ -1,0 +1,22 @@
+.project-card {
+  margin-top: 140px;
+}
+
+.project-image {
+  border-radius: 24px;
+  transition: all 0.4s ease;
+}
+
+.project-image:hover {
+  transform: translateY(-10px);
+}
+
+.project-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.project-description {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #070b14;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+.container-custom {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+section {
+  position: relative;
+  padding: 20px 0;
+}
+
+.section-header {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  color: #94a3b8;
+  max-width: 700px;
+  line-height: 1.8;
+}
+
+@media (max-width: 992px) {
+  .section-title {
+    font-size: 42px;
+  }
+
+  .container-custom {
+    padding: 0 24px;
+  }
+}

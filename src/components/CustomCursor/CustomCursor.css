@@ -1,0 +1,19 @@
+.custom-cursor {
+  width: 22px;
+  height: 22px;
+  border: 2px solid rgba(124, 58, 237, 0.8);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.08s linear;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 992px) {
+  .custom-cursor {
+    display: none;
+  }
+}
