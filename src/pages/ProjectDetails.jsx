@@ -12,27 +12,35 @@ const ProjectDetails = () => {
   const nextImage = () => {
     setSelectedIndex((prev) => (prev + 1) % project.screenshots.length);
   };
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (selectedIndex === null) return;
+useEffect(() => {
+  const handleKeyDown = (e) => {
+    if (selectedIndex === null) return;
 
-      if (e.key === "Escape") {
-        setSelectedIndex(null);
-      }
+    if (e.key === "Escape") {
+      setSelectedIndex(null);
+    }
 
-      if (e.key === "ArrowRight") {
-        nextImage();
-      }
+    if (e.key === "ArrowRight") {
+      setSelectedIndex(
+        (prev) => (prev + 1) % project.screenshots.length
+      );
+    }
 
-      if (e.key === "ArrowLeft") {
-        prevImage();
-      }
-    };
+    if (e.key === "ArrowLeft") {
+      setSelectedIndex(
+        (prev) =>
+          prev === 0
+            ? project.screenshots.length - 1
+            : prev - 1
+      );
+    }
+  };
 
-    window.addEventListener("keydown", handleKeyDown);
+  window.addEventListener("keydown", handleKeyDown);
 
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIndex]);
+  return () =>
+    window.removeEventListener("keydown", handleKeyDown);
+}, [selectedIndex, project]);
   const prevImage = () => {
     setSelectedIndex((prev) =>
       prev === 0 ? project.screenshots.length - 1 : prev - 1,
