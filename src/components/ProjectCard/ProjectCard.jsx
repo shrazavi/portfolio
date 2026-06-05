@@ -1,35 +1,32 @@
-const ProjectCard = () => {
+import { Link } from "react-router-dom";
+import "./ProjectCard.css";
+const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
-       
-      <div className="row align-items-center">
-        <div className="col-lg-7">
-          <img
-            src="/assets/projects/store.jpg"
-            className="img-fluid project-image"
-            alt="project"
-          />
-        </div>
+    <Link to={`/project/${project.id}`} className="project-link">
+      <div className="project-card">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="project-image"
+        />
 
-        <div className="col-lg-5">
-          <span className="project-category">Featured Project</span>
+        <div className="project-content">
+          <span className="project-category">{project.category}</span>
 
-          <h2 className="project-title">E-Commerce Platform</h2>
+          <h3 className="project-title">{project.title}</h3>
 
-          <p className="project-description">
-            A modern multi-vendor e-commerce platform built with React and
-            Node.js featuring advanced filtering, responsive design and seller
-            dashboard.
-          </p>
+          <p className="project-description">{project.shortDescription}</p>
 
           <div className="tech-stack">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
+            {project.technologies.map((tech) => (
+              <span key={tech} className="tech-badge">
+                {tech}
+              </span>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
