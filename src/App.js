@@ -1,35 +1,23 @@
 import React from "react";
-
+import {  Routes, Route } from "react-router-dom";
 import "./styles/globals.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects";
-import Skills from "./components/Skills/Skills";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import CustomCursor from "./components/CustomCursor/CustomCursor";
-
+import Home from "./pages/Home";
+import ProjectDetails from "./pages/ProjectDetails";
+import PortfolioPage from "./pages/PortfolioPage";
 import "./styles/globals.css";
-
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
-      <CustomCursor />
+    <CustomCursor/>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-      <Navbar />
-
-      <Hero />
-
-      <FeaturedProjects />
-
-      <Skills />
-
-      <About />
-
-      <Contact />
-
-      <Footer />
+        <Route path="/project/:id" element={<ProjectDetails />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+      </Routes>
     </>
   );
 }
