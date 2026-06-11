@@ -1,7 +1,7 @@
 import React from "react";
 
 import { motion } from "framer-motion";
-import resume from "../../assets/pdf/resume.pdf";
+
 import {
   FaGithub,
   FaLinkedinIn,
