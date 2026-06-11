@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import resume from "../../assets/images/resume.pdf";
+import resume from "../../assets/pdf/resume.pdf";
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -24,7 +24,11 @@ const Navbar = () => {
         <div className="container-custom navbar-wrapper">
           {/* LOGO */}
           <a href="#home" className="navbar-logo">
-            Hossein Razavi
+            <img
+              src="https://res.cloudinary.com/dwuhamihv/image/upload/v1781139654/logo1_m6jklg.png"
+              alt="Logo"
+              className="navbar-logo"
+            />
           </a>
 
           {/* DESKTOP MENU */}
