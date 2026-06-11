@@ -6,7 +6,6 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaTelegramPlane,
-  FaMouse,
 } from "react-icons/fa";
 
 import "./Hero.css";
