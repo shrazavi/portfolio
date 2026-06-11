@@ -17,38 +17,53 @@ const About = () => {
             <span className="about-label">ABOUT ME</span>
 
             <h2 className="about-title">
-              Passionate developer crafting modern digital experiences.
+              Full-Stack Developer building scalable products from idea to
+              production.
             </h2>
 
             <p className="about-description">
-              I’m a full stack developer focused on building scalable web
-              applications, realtime systems and modern user interfaces. I enjoy
-              transforming ideas into premium digital products with clean
-              architecture and smooth user experiences.
+              Hi, I'm Hossein Razavi, a Full-Stack Developer specializing in
+              React, Node.js, MERN Stack, WebRTC and scalable real-time
+              applications. Over the past several years, I've built marketplace
+              platforms, telemedicine solutions, educational products and
+              scheduling systems — taking products from concept and MVP to
+              production-ready applications. My experience spans the entire
+              software development lifecycle, including requirements analysis,
+              system architecture, implementation, deployment and continuous
+              improvement. I have hands-on experience developing multi-vendor
+              marketplaces, healthcare applications with real-time
+              communication, Android educational games, and startup MVPs using
+              technologies such as React.js, Node.js, Express.js, MongoDB,
+              MySQL, WebRTC and REST APIs. What differentiates me is my ability
+              to combine technical execution with product thinking. I enjoy
+              solving complex problems, designing scalable architectures and
+              building software that delivers measurable value to users and
+              businesses.
             </p>
 
             <p className="about-description">
-              My experience includes React.js, Node.js, MongoDB, MySQL, WebRTC
-              and realtime communication systems.
+              Core expertise: React.js, Node.js, TypeScript, MongoDB, MySQL,
+              WebRTC, REST APIs, Android Development and scalable application
+              architecture.
             </p>
 
             {/* STATS */}
 
             <div className="about-stats">
               <div className="about-stat-item">
-                <h3>4+</h3>
+                <h3>5+</h3>
 
                 <span>Years Experience</span>
               </div>
 
               <div className="about-stat-item">
-                <h3>20+</h3>
+                <h3>10+</h3>
 
                 <span>Projects Built</span>
               </div>
 
               <div className="about-stat-item">
-                <h3>10+</h3>
+                <h3>20+</h3>
 
                 <span>Technologies</span>
               </div>
@@ -64,9 +79,9 @@ const About = () => {
               </div>
 
               <div>
-                <h3>Clean Code</h3>
+                <h3>Clean Architecture</h3>
 
-                <p>Scalable architecture and reusable components.</p>
+                <p>Designing maintainable and scalable software systems.</p>
               </div>
             </div>
 
@@ -76,9 +91,12 @@ const About = () => {
               </div>
 
               <div>
-                <h3>Full Stack Development</h3>
+                <h3>Product Ownership</h3>
 
-                <p>Frontend, backend and realtime systems.</p>
+                <p>
+                  From idea validation and MVP delivery to production
+                  deployment.
+                </p>
               </div>
             </div>
 
@@ -88,9 +106,11 @@ const About = () => {
               </div>
 
               <div>
-                <h3>Modern UI/UX</h3>
+                <h3>Real-Time Systems</h3>
 
-                <p>Responsive premium interfaces and smooth interactions.</p>
+                <p>
+                  Building communication platforms with WebRTC and modern APIs.
+                </p>
               </div>
             </div>
 
@@ -100,9 +120,12 @@ const About = () => {
               </div>
 
               <div>
-                <h3>Performance Focused</h3>
+                <h3>Business Impact</h3>
 
-                <p>Optimized applications with modern technologies.</p>
+                <p>
+                  Creating products that solve real user problems and support
+                  growth.
+                </p>
               </div>
             </div>
           </div>
