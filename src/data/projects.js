@@ -110,7 +110,7 @@ const projects = [
 
     github: "https://github.com/shrazavi/",
 
-    demo: "",
+    demo: "https://cafebazaar.ir/app/com.shrazavi.mathquest",
 
     image:
       "https://res.cloudinary.com/dwuhamihv/image/upload/v1780149024/game_mtyoom.png",
