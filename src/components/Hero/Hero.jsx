@@ -1,11 +1,12 @@
 import React from "react";
-import resume from "../../assets/images/resume.pdf";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
+import resume from "../../assets/pdf/resume.pdf";
 import {
   FaGithub,
   FaLinkedinIn,
   FaTelegramPlane,
+  FaMouse,
 } from "react-icons/fa";
 
 import "./Hero.css";
@@ -28,15 +29,26 @@ const Hero = () => {
             transition={{ duration: 0.9 }}
           >
             <span className="hero-label">FULL STACK DEVELOPER</span>
-
+            <img
+              src="https://res.cloudinary.com/dwuhamihv/image/upload/v1781138601/profile_2_juvxg9.jpg"
+              alt="Hossein Razavi - Full-Stack Developer"
+              className="hero-profile"
+            />
             <h1 className="hero-title">
-              Building premium digital experiences with
-              <span className="gradient-text"> React & Node.js. </span>
+              Hossein Razavi
+              <br />
+              <span>Full-Stack Developer</span>
+              <br />
+              <span className="gradient-text">
+                React • Node.js • Real-Time Systems
+              </span>
             </h1>
 
             <p className="hero-description">
-              I create responsive web applications, real-time systems and modern
-              user interfaces focused on performance and user experience.
+              Full-Stack Developer building scalable products from idea to
+              production. I specialize in React, Node.js and real-time systems,
+              with hands-on experience delivering marketplace, healthcare and
+              educational applications used in real-world scenarios.
             </p>
 
             {/* BUTTONS */}
@@ -46,11 +58,8 @@ const Hero = () => {
                 View Projects
               </a>
 
-              <a
-                href={resume}
-                className="hero-secondary-btn"
-              >
-                Download Resume
+              <a href="#contact" className="hero-secondary-btn">
+                Contact Me
               </a>
             </div>
 
