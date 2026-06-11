@@ -2,7 +2,7 @@ const projects = [
   {
     id: "ecommerce-platform",
 
-    title: "E-Commerce Platform",
+    title: "Multi-Vendor Marketplace Platform",
 
     category: "Web Application",
 
@@ -46,7 +46,7 @@ const projects = [
   {
     id: "video-consultation",
 
-    title: "Secure Video Consultation",
+    title: "Telemedicine Platform with Real-Time Communication",
 
     category: "Realtime System",
 
@@ -89,7 +89,7 @@ const projects = [
   {
     id: "math-quest",
 
-    title: "Math Learning Game",
+    title: "Gamified Learning Platform",
 
     category: "Android Application",
 
@@ -110,7 +110,7 @@ const projects = [
 
     github: "https://github.com/shrazavi/",
 
-    demo: "https://cafebazaar.ir/app/com.shrazavi.mathquest",
+    demo: "",
 
     image:
       "https://res.cloudinary.com/dwuhamihv/image/upload/v1780149024/game_mtyoom.png",
