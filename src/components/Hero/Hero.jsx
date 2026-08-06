@@ -29,7 +29,7 @@ const Hero = () => {
           >
             <span className="hero-label">FULL STACK DEVELOPER</span>
             <img
-              src="https://res.cloudinary.com/dwuhamihv/image/upload/v1781138601/profile_2_juvxg9.jpg"
+              src="https://res.cloudinary.com/dwuhamihv/image/upload/v1785976271/98b2f74d-297a-4916-86f1-7cf98e97e62f_inqyg9.png"
               alt="Hossein Razavi - Full-Stack Developer"
               className="hero-profile"
             />
